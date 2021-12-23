@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    align-items: center;
+    height: 10vh;
+    background-color: #493f3b;
+    justify-content: right
+}
+.img{
+    position: fixed;
+    left:5vh;
+    /* top: 2,5vh; */
+    height: 7vh;
+}
+.span{
+    margin-right: 6vh;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.nosotros{
+    height: 45vh;
+    /* background-color: rgb(194, 173, 173); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    color: white;
+    font-size: 40px;
+    z-index: 3;
+}
+.nosotros2{
+    height: 45vh;
+    /* background-color: rgb(194, 173, 173); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    color: white;
+    font-size: 40px;
+    z-index: 3;
+}
+.video{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+.wrapper{
+    /* background-image: url('http://adwallpapers.xyz/uploads/posts/72014-manhattan-new-york-usa-skyscapers-4k-ultra-hd-wallpaper__cityscapes.jpg'); */
+    background-size: cover;
+    z-index: 3;
+}
+.contact{
+    height: 45vh;
+
+}
