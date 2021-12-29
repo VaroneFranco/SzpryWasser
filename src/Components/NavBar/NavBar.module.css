@@ -1,19 +1,40 @@
-.nav{
-    display: flex;
-    width: 100%;
-    position: sticky;
-    align-items: center;
-    height: 10vh;
-    background-color: #493f3b;
-    justify-content: right
+.nav {
+  display: flex;
+  width: 100%;
+  position: sticky;
+  align-items: center;
+  justify-content: right;
+  height: 11%;
+  background-color: #b7e2ff8e;
+  position: absolute;
+  z-index: 3;
 }
-.img{
-    position: fixed;
-    left:5vh;
-    /* top: 2,5vh; */
-    height: 7vh;
+.logo {
+  position: relative;
+  /* top: 2,5vh; */
+  width: 15%;
+  height: 70%;
+  margin-top: 3%;
+  margin-left: 1.5%;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-.span{
-    margin-right: 6vh;
-    cursor: pointer;
+.burger {
+  position: relative;
+  background-color: transparent;
+  height: 70%;
+  right: 30px;
+  cursor: pointer;
+  margin-left: auto;
 }
+.menu{
+  position: relative;
+  margin-left: auto;
+  height: 70%;
+}
+span {
+  margin-right: 6vh;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px ;
+}
+

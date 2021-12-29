@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+body{
+  background-color: #b7e2ff8e;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+
+}
 
 .App-logo {
   height: 40vmin;
