@@ -1,7 +1,7 @@
 import react from "react";
 import NavBar from "../NavBar/NavBar";
 import About from "../AboutUs/About";
-import Contact from "../Contact/Contact";
+import Cards from "../Cards/Cards"
 import s from "./Home.module.css";
 import pm from "../../Multimedia/DronePtoMadero.mp4";
 
@@ -19,6 +19,7 @@ export default function Home() {
         <button className={s.boton}>Conocenos</button>
       </div>
       <About/>
+      <Cards/>
     </>
   );
 }

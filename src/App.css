@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  width: 100%;
 }
+
 body{
   background-color: #b7e2ff8e;
   font-size: 64px;
