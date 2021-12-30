@@ -17,12 +17,12 @@
   color:rgb(0, 0, 0);
 }
 .landing h4{
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 400;
 }
 .boton{
   position: absolute;
-  font-size: 25px;
+  font-size: 1.7rem;
   border: transparent;
   /* border-radius: 10px; */
   background-color: #b7e2ffbb;

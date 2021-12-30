@@ -2,11 +2,9 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    /* align-items: center;  */
     top:110%;
     height: 80%;
     width: 100%;
-    margin-left: 25px;
     padding: 0;
     flex-wrap: wrap;
 }
@@ -17,7 +15,7 @@
 }
 
 .title h4{
-    font-size: 45px;
+    font-size: 3rem;
    
 }
 .about{
@@ -27,8 +25,9 @@
     justify-content: space-between;
 }
 .about p{
-    font-size: 30px;
+    font-size: 1.75rem;
     width: 40%;
+    text-align: left;
 }
 .about img{
     width: 40%;

@@ -16,7 +16,8 @@
   height: 70%;
   margin-top: 3%;
   margin-left: 1.5%;
-  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 5rem;
 }
 .burger {
   position: relative;
@@ -32,9 +33,10 @@
   height: 70%;
 }
 span {
-  margin-right: 6vh;
+  margin-right: 2rem;
+  margin-bottom: 0.6rem;
   cursor: pointer;
   font-weight: bold;
-  font-size: 25px ;
+  font-size: 1.7rem ;
 }
 
