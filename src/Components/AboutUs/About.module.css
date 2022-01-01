@@ -2,7 +2,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    top:110%;
+    top:125%;
     height: 80%;
     width: 100%;
     padding: 0;
@@ -30,6 +30,10 @@
     text-align: left;
 }
 .about img{
+    position: relative;
+    top: 1.3rem;
     width: 40%;
     height: 90%;
+    /* border: 0.5px solid black; */
+    border-radius:3px
 }

@@ -1,29 +1,108 @@
-.wrapper3{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    top:190%;
-    height: 80%;
-    width: 100%;
-    /* padding: 0 10% 0 10%; */
-    flex-wrap: wrap;
-    /* margin-left: -÷%; */
+.wrapper3 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 220%;
+  height: 80%;
+  width: 100%;
+  /* padding: 0 10% 0 10%; */
+  flex-wrap: wrap;
+  /* margin-left: -÷%; */
 }
-.title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.title h4{
-    font-size: 3rem;
-   
+.title h4 {
+  font-size: 3rem;
 }
-.services{
-    margin-left: -7%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
+.services {
+  margin-left: -7%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 150%;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 6rem
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  height: 35rem;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.cardheader {
+  text-align: center;
+  padding: 50px 10px;
+  background-image: url('https://conceptodefinicion.de/wp-content/uploads/2015/04/fotografia.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 20px;
+  height: 25%;
+  border-radius: 5px 5px 0 0;
+}
+
+.cardbody {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cardbody .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #918b8c, #afcef7);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
     width: 100%;
-    height: 150%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
 }
