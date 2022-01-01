@@ -1,0 +1,27 @@
+.wrapper4 {
+  width: 100%;
+  height: 30%;
+  flex-wrap: wrap;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  top: 400%;
+}
+.title {
+  margin-bottom: 2rem;
+  height: 20%;
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 20%;
+}

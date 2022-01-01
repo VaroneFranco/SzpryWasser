@@ -11,12 +11,11 @@
 }
 .logo {
   position: relative;
-  /* top: 2,5vh; */
   width: 15%;
-  height: 70%;
-  margin-top: 3%;
+  /* height: 70%; */
+  /* margin-top: 3%; */
   margin-left: 1.5%;
-  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 5rem;
 }
 .burger {
@@ -27,9 +26,11 @@
   cursor: pointer;
   margin-left: auto;
 }
-.menu{
+.menu {
   position: relative;
   margin-left: auto;
+  display: flex;
+  align-items: center;
   height: 70%;
 }
 span {
@@ -37,6 +38,10 @@ span {
   margin-bottom: 0.6rem;
   cursor: pointer;
   font-weight: bold;
-  font-size: 1.7rem ;
+  font-size: 1.6rem;
+  transition: 0.15s linear 0s;
 }
 
+span:hover {
+  color: rgb(103, 132, 158);
+}
